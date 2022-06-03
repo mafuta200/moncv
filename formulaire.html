@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FORMULAIRE</title>
+   
+</head>
+<body>
+    <h1>FORMULAIRE</h1>
+   <form action=""method="get">
+       <fieldset>
+       <legend> votre identite </legend>
+            <div>
+            <label for="nom">Nom</label><br>
+            <input type="text" name="" id="nom"placeholder="NOM" size="30"></div>
+            <div>
+            <label for="prenom">Prenom</label><br>
+            <input type="text" name="" id="prenom"placeholder="PRENOM" size="30"></div>
+            <div>
+            <label for="tel">Numero de telephone</label><br>
+            <input type="text" name="tel" id="tel"placeholder="TELEPHONE" size="30" > <a href="+243 817179856"> me contacter </a> </div>
+            <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="" id="email"placeholder=EMAIL size="30"></div>
+            <div>
+            <label for="user-pwd">Mot de passe</label><br>
+            <input type="password" name="" id="user-pwd"placeholder="password" size="30"></div>
+        </fieldset><br>
+       <label for="pays">Pays</label><br>
+       
+
+       <select name="" id="pays">
+           <option value=""> pays</option> 
+           <option value="algerie">algerie</option>
+           <option value="bresil">bresil</option>
+           <option value="belgique">belgique</option>
+           <option value="canada">canada</option>
+           <option value="danemak">danemak</option>
+       </select> <br><br>
+
+            <div><label for="datetime-local">Date</label><br>
+            <input type="datetime-local" name="datetime-local" id="datetime-local" size="30"></div><br>
+            <p><img src="" alt="IDENTITE"><br></p> <br>
+            
+            <label for="description">Description</label><br>
+            <textarea name="" id="description" cols="100" rows="10"placeholder="description"></textarea></div><br><br>
+            
+       <fieldset>
+            <legend>Etudiant :</legend>
+            <label for="non">non</label>
+            <input type="radio" name="etudiant" id="non"> 
+            <label for="oui">oui</label>
+            <input type="radio" name="etudiant" id="oui">
+       </fieldset><br><br>
+       <div>
+
+           <fieldset>
+               <legend>competence</legend>
+               <label for="gethub">gethub</label>
+               <input type="checkbox" checked name="competence"id="gethub">
+               <label for="html">html</label>
+               <input type="checkbox"name="competence" id="html">
+               <label for="css">css</label>
+               <input type="checkbox"name="competence" id="css">
+           </fieldset><br><br>
+       </div>
+       <button type="submit" id="b1">ENVOYER</button>
+       <button type="submit" class="b1">ANNULER</button>
+       
+       <div id="box">
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+    </div>
+       
+
+   </form> 
+</body>
+</html>
